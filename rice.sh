@@ -9,7 +9,7 @@ fi
 cd autoricer
 if [ ! -d .git ]; then
     git init
-    git remote add origin https://github.com/Skimlk/autoricer
+    git remote add origin https://github.com/Skimak/autoricer
 fi
 
 git fetch || exit 1
